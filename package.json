@@ -1,0 +1,12 @@
+{
+  "name": "witheredraxia-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix source run build",
+    "dev": "npm --prefix source run dev",
+    "start": "npm --prefix source start"
+  },
+  "workspaces": [
+    "source"
+  ]
+}
